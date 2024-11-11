@@ -19,12 +19,12 @@
  * along with this library; if not, see <http://www.gnu.org/licenses>.
  */
 
+#define _DEFAULT_SOURCE
+#include <unistd.h>
+
 #include <stdlib.h>
 #include <errno.h>
 #include <sys/prctl.h>
-
-#define _GNU_SOURCE
-#include <unistd.h>
 
 #include "system.h"
 

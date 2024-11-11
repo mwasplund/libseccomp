@@ -19,6 +19,7 @@ Makefile
 Makefile.in
 cscope.*
 tags
+/out
 /autom4te.cache
 /aclocal.m4
 /build-aux

@@ -19,6 +19,11 @@
  * along with this library; if not, see <http://www.gnu.org/licenses>.
  */
 
+#ifndef _DEFAULT_SOURCE
+#define _DEFAULT_SOURCE
+#endif
+#include <endian.h>
+
 #include <errno.h>
 #include <inttypes.h>
 #include <limits.h>
@@ -26,11 +31,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-
-#ifndef _BSD_SOURCE
-#define _BSD_SOURCE
-#endif
-#include <endian.h>
 
 #include <seccomp.h>
 
