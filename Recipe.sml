@@ -14,6 +14,7 @@ PublicHeaders: [
 		Root: 'include/'
 		Files: [
 			'seccomp.h'
+			'seccomp-syscalls.h'
 		]
 	}
 ]
@@ -34,7 +35,6 @@ Source: [
 	'src/arch-s390.c'
 	'src/arch-s390x.c'
 	'src/arch-sh.c'
-	'src/arch-syscall-dump.c'
 	'src/arch-x32.c'
 	'src/arch-x86.c'
 	'src/arch-x86_64.c'
@@ -45,5 +45,6 @@ Source: [
 	'src/hash.c'
 	'src/helper.c'
 	'src/syscalls.c'
+	'src/syscalls.perf.c'
 	'src/system.c'
 ]
