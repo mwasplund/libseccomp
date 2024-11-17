@@ -1,6 +1,9 @@
 Name: 'libseccomp'
 Language: 'C|0'
-Version: '2.5.6'
+Version: '2.5.8'
+TargetSystems: [
+	'Unix'
+]
 IncludePaths: [
 	'include/'
 	'src/'
