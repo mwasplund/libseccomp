@@ -1,6 +1,6 @@
 Name: 'libseccomp'
 Language: 'C|0'
-Version: '2.5.8'
+Version: '2.5.9'
 TargetSystems: [
 	'Unix'
 ]
